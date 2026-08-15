@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <title>Cafe 55 Varanasi | Premium Coffee, Food & Ambience</title>
+    <meta name="description" content="Cafe 55 Varanasi — Where great coffee meets great conversations. Handcrafted coffee, exceptional food, and unforgettable moments in the heart of Varanasi. Reserve your table today." />
+    <meta name="keywords" content="Cafe 55 Varanasi, luxury cafe Varanasi, best coffee Varanasi, cafe near me, restaurant Varanasi, premium cafe, cafe booking Varanasi" />
+    <meta name="author" content="Cafe 55 Varanasi" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://cafe55varanasi.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:title" content="Cafe 55 Varanasi | Where Great Coffee Meets Great Conversations" />
+    <meta property="og:description" content="Experience handcrafted coffee, exceptional food and unforgettable moments at Cafe 55, Varanasi." />
+    <meta property="og:image" content="https://images.pexels.com/photos/27626762/pexels-photo-27626762.png?auto=compress&cs=tinysrgb&h=650&w=940" />
+    <meta property="og:url" content="https://cafe55varanasi.com/" />
+    <meta property="og:site_name" content="Cafe 55 Varanasi" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cafe 55 Varanasi | Premium Coffee & Dining" />
+    <meta name="twitter:description" content="Handcrafted coffee, exceptional food and unforgettable moments at Cafe 55, Varanasi." />
+    <meta name="twitter:image" content="https://images.pexels.com/photos/27626762/pexels-photo-27626762.png?auto=compress&cs=tinysrgb&h=650&w=940" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Cafe 55 Varanasi",
+      "image": "https://images.pexels.com/photos/27626762/pexels-photo-27626762.png?auto=compress&cs=tinysrgb&h=650&w=940",
+      "url": "https://cafe55varanasi.com/",
+      "telephone": "+919876543210",
+      "priceRange": "₹₹₹",
+      "servesCuisine": ["Coffee", "Italian", "Continental", "Desserts"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "520/53-55, Buddha Vihar Colony, 53-56, Cantonment",
+        "addressLocality": "Varanasi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "221002",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.3176,
+        "longitude": 82.9739
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "09:00",
+          "closes": "23:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "640"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo" aria-label="Cafe 55 home">
+          <span class="logo-text">Cafe<span class="logo-accent">55</span></span>
+          <span class="logo-sub">VARANASI</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-cta-li"><a href="#reservation" class="nav-cta">Reserve Table</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <header class="hero" id="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="hero-eyebrow">Welcome to Cafe 55 Varanasi</p>
+        <h1 class="hero-title">Where Great Coffee Meets<br />Great Conversations</h1>
+        <p class="hero-subtitle">Experience handcrafted coffee, exceptional food and unforgettable moments at Cafe 55, Varanasi.</p>
+        <div class="hero-rating">
+          <div class="rating-badge">
+            <span class="stars" aria-label="4.8 out of 5 stars">★★★★★</span>
+            <span class="rating-number">4.8 Rating</span>
+          </div>
+          <span class="rating-divider"></span>
+          <div class="rating-badge">
+            <span class="reviews-count">640+</span>
+            <span class="reviews-label">Reviews</span>
+          </div>
+        </div>
+        <div class="hero-buttons">
+          <a href="#reservation" class="btn btn-primary">Reserve Table</a>
+          <a href="#menu" class="btn btn-outline">View Menu</a>
+        </div>
+      </div>
+      <a href="#stats" class="scroll-indicator" aria-label="Scroll down">
+        <span class="scroll-text">Scroll</span>
+        <span class="scroll-line"></span>
+      </a>
+    </header>
+
+    <!-- ===== Stats ===== -->
+    <section class="stats" id="stats" aria-label="Cafe statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <span class="stat-number" data-target="640" data-suffix="+">0</span>
+            <span class="stat-label">Reviews</span>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-number" data-target="4.8" data-decimal="true">0</span>
+            <span class="stat-label">★ Rating</span>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-number" data-target="10000" data-suffix="K+" data-divide="1000">0</span>
+            <span class="stat-label">Happy Guests</span>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-number" data-target="50" data-suffix="+">0</span>
+            <span class="stat-label">Signature Dishes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="about" id="about" aria-label="About Cafe 55">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <img src="./Images/int1.webp" alt="Elegant interior of Cafe 55 with stylish black chairs and wooden tables" loading="lazy" />
+            <div class="about-image-badge">
+              <span class="badge-number">Est.</span>
+              <span class="badge-text">2019</span>
+            </div>
+          </div>
+          <div class="about-content reveal">
+            <p class="section-eyebrow">Our Story</p>
+            <h2 class="section-title">A Place Where Every<br />Sip Tells a Story</h2>
+            <p class="about-text">Born in the spiritual heart of India, Cafe 55 was created with a singular vision — to bring world-class coffee culture to Varanasi. From the rich aroma of freshly roasted beans to the artistry of our signature dishes, every detail is crafted to delight.</p>
+            <p class="about-text">Our space blends modern luxury with the timeless soul of Varanasi. Whether you're seeking a quiet corner for reflection or a vibrant setting for conversation, Cafe 55 is your destination for moments worth savouring.</p>
+            <div class="about-features">
+              <div class="about-feature">
+                <span class="feature-icon">☕</span>
+                <span class="feature-label">Artisan Coffee</span>
+              </div>
+              <div class="about-feature">
+                <span class="feature-icon">🍽️</span>
+                <span class="feature-label">Gourmet Kitchen</span>
+              </div>
+              <div class="about-feature">
+                <span class="feature-icon">✨</span>
+                <span class="feature-label">Luxury Ambience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Menu ===== -->
+    <section class="menu" id="menu" aria-label="Signature menu">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Our Signature Menu</p>
+          <h2 class="section-title">Crafted to Perfection</h2>
+          <p class="section-subtitle">From handcrafted coffee to gourmet plates — every item is a celebration of flavour.</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <div class="menu-card-image">
+              <img src="./Images/coffee.webp" alt="Latte with swan latte art" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Coffee</h3>
+              <p class="menu-card-desc">Single-origin beans, roasted to perfection and crafted into cappuccinos, lattes, and cold brews.</p>
+              <span class="menu-card-price">from ₹120</span>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-image">
+              <img src="./Images/pizza.webp" alt="Gourmet pizza with chicken wings" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Pizza</h3>
+              <p class="menu-card-desc">Wood-fired pizzas with fresh dough, premium toppings, and our signature house sauce.</p>
+              <span class="menu-card-price">from ₹250</span>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-image">
+              <img src="./Images/pasta.webp" alt="Freshly prepared pasta dishes" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Pasta</h3>
+              <p class="menu-card-desc">Al dente pasta tossed in rich, creamy, and arrabbiata sauces with farm-fresh ingredients.</p>
+              <span class="menu-card-price">from ₹220</span>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-image">
+              <img src="./Images/burger.webp" alt="Gourmet burger with sides" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Burgers</h3>
+              <p class="menu-card-desc">Juicy, flame-grilled patties stacked with gourmet cheeses and house-made chutneys.</p>
+              <span class="menu-card-price">from ₹180</span>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-image">
+              <img src="./Images/mocktail.webp" alt="Vibrant signature mocktails" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Mocktails</h3>
+              <p class="menu-card-desc">Refreshing, handcrafted mocktails with fresh fruit, herbs, and a touch of flair.</p>
+              <span class="menu-card-price">from ₹150</span>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-image">
+              <img src="./Images/desert.jpeg" alt="Strawberry raspberry dessert" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Desserts</h3>
+              <p class="menu-card-desc">Decadent desserts — from molten lava cake to artisanal cheesecakes and gelato.</p>
+              <span class="menu-card-price">from ₹160</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Gallery ===== -->
+    <section class="gallery" id="gallery" aria-label="Food and interior gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Gallery</p>
+          <h2 class="section-title">A Feast for the Eyes</h2>
+          <p class="section-subtitle">Step inside the world of Cafe 55 — where every plate and every corner is picture-perfect.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-tall reveal">
+            <img src="./Images/int2.webp" alt="Luxurious modern restaurant interior" loading="lazy" />
+            <div class="gallery-overlay"><span>Our Ambience</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <img src="./Images/drink1.webp" alt="Latte with swan latte art" loading="lazy" />
+            <div class="gallery-overlay"><span>Signature Coffee</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <img src="./Images/food2.webp" alt="Gourmet pizza" loading="lazy" />
+            <div class="gallery-overlay"><span>Wood-Fired Pizza</span></div>
+          </div>
+          <div class="gallery-item gallery-wide reveal">
+            <img src="./Images/lounge.webp" alt="Dimly lit elegant lounge bar" loading="lazy" />
+            <div class="gallery-overlay"><span>The Lounge</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <img src="./Images/drink2.webp" alt="Signature mocktails on display" loading="lazy" />
+            <div class="gallery-overlay"><span>Mocktails</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <img src="./Images/diningspace.webp" alt="Contemporary dining area" loading="lazy" />
+            <div class="gallery-overlay"><span>Dining Space</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why Choose Us ===== -->
+    <section class="why" id="why" aria-label="Why choose Cafe 55">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Why Cafe 55</p>
+          <h2 class="section-title">An Experience Like No Other</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <span class="why-icon">🏛️</span>
+            <h3 class="why-title">Premium Ambience</h3>
+            <p class="why-desc">A thoughtfully designed space that blends luxury with warmth — perfect for every occasion.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">❤️</span>
+            <h3 class="why-title">Perfect for Dates</h3>
+            <p class="why-desc">Soft lighting, elegant seating, and intimate corners designed for memorable moments.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">☕</span>
+            <h3 class="why-title">Great Coffee</h3>
+            <p class="why-desc">Single-origin beans roasted in-house, brewed by award-winning baristas.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">⚡</span>
+            <h3 class="why-title">Fast Service</h3>
+            <p class="why-desc">Attentive, prompt, and friendly service that makes every visit effortless.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">🛋️</span>
+            <h3 class="why-title">Comfortable Seating</h3>
+            <p class="why-desc">Plush, spacious seating that invites you to stay, relax, and unwind.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">📸</span>
+            <h3 class="why-title">Instagram Worthy</h3>
+            <p class="why-desc">Every corner is a photo opportunity — designed to be shared and remembered.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="reviews" id="reviews" aria-label="Customer reviews">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Reviews</p>
+          <h2 class="section-title">Loved by Our Guests</h2>
+          <p class="section-subtitle">640+ reviews and a 4.8-star rating — here's what our guests have to say.</p>
+        </div>
+        <div class="reviews-grid">
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"This aesthetic cafe have so soft and calm vibe..
+The food is also good..I have visited here with my best friend..We have taken beautiful pictures and have cold coffee, mojito, kebab and cheese omelette..all were awesome..
+Must visit with your Friends for some quality time..🌸🌸
+"</p>
+            <div class="review-author">
+              <span class="review-avatar">A</span>
+              <div>
+                <span class="review-name">Aarav Sharma</span>
+                <span class="review-role">Regular Guest</span>
+              </div>
+            </div>
+          </article>
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">" Amazing place. Definitely a hidden gem. The service was amazing. A special call out to Mohan and Aadharsh who made this experience top tier. The coffees made by Mohan were definitely the best I have had in varanasi. The food was great aswell but the drinks take the cake. Must visit 🫶🏽🫶🏽
+</p>
+            <div class="review-author">
+              <span class="review-avatar">P</span>
+              <div>
+                <span class="review-name">Priya Mishra</span>
+                <span class="review-role">Verified Diner</span>
+              </div>
+            </div>
+          </article>
+          <article class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Loved the food here overall aesthetics are beautiful, service is nice, special thanks to mohan sir for his excellent service."</p>
+            <div class="review-author">
+              <span class="review-avatar">R</span>
+              <div>
+                <span class="review-name">Rohit Verma</span>
+                <span class="review-role">Food Blogger</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Reservation ===== -->
+    <section class="reservation" id="reservation" aria-label="Reserve a table">
+      <div class="container">
+        <div class="reservation-card reveal">
+          <div class="reservation-info">
+            <p class="section-eyebrow">Book a Table</p>
+            <h2 class="section-title">Reserve Your Experience</h2>
+            <p class="reservation-text">Secure your table at Cafe 55 Varanasi. Whether it's a romantic dinner, a family gathering, or a quiet coffee — we'll make it special.</p>
+            <div class="reservation-perks">
+              <div class="perk"><span class="perk-check">✓</span> Instant confirmation</div>
+              <div class="perk"><span class="perk-check">✓</span> No booking fees</div>
+              <div class="perk"><span class="perk-check">✓</span> Priority seating</div>
+            </div>
+          </div>
+          <form class="reservation-form" id="reservationForm" novalidate>
+            <div class="form-group">
+              <label for="resName">Name</label>
+              <input type="text" id="resName" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="resPhone">Phone</label>
+              <input type="tel" id="resPhone" name="phone" placeholder="+91 98765 43210" required />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resDate">Date</label>
+                <input type="date" id="resDate" name="date" required />
+              </div>
+              <div class="form-group">
+                <label for="resTime">Time</label>
+                <input type="time" id="resTime" name="time" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="resGuests">Guests</label>
+              <select id="resGuests" name="guests" required>
+                <option value="" disabled selected>Select guests</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6">6 People</option>
+                <option value="7+">7+ People</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Confirm Reservation</button>
+            <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Location / Contact ===== -->
+    <section class="location" id="contact" aria-label="Location and contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Visit Us</p>
+          <h2 class="section-title">Find Us in Varanasi</h2>
+        </div>
+        <div class="location-grid">
+          <div class="location-info reveal">
+            <div class="location-item">
+              <span class="location-icon">📍</span>
+              <div>
+                <h3 class="location-label">Address</h3>
+                <p class="location-text">520/53-55, Buddha Vihar Colony, 53-56, Cantonment<br />Varanasi, Uttar Pradesh 221002</p>
+              </div>
+            </div>
+            <div class="location-item">
+              <span class="location-icon">🕐</span>
+              <div>
+                <h3 class="location-label">Opening Hours</h3>
+                <p class="location-text">Monday — Sunday<br />9:00 AM — 11:00 PM</p>
+              </div>
+            </div>
+            <div class="location-item">
+              <span class="location-icon">📞</span>
+              <div>
+                <h3 class="location-label">Phone</h3>
+                <p class="location-text">+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="location-buttons">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=25.3176,82.9739" target="_blank" rel="noopener" class="btn btn-primary">Get Directions</a>
+              <a href="tel:+919876543210" class="btn btn-outline">Call Now</a>
+            </div>
+          </div>
+          <div class="location-map reveal">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.1!2d82.9739!3d25.3176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE5JzAzLjQiTiA4MsKwNTgnMjguMCJF!5e0!3m2!1sen!2sin!4v1700000000000"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Cafe 55 Varanasi location map"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Final CTA ===== -->
+    <section class="final-cta" aria-label="Call to action">
+      <div class="container">
+        <div class="final-cta-content reveal">
+          <h2 class="final-cta-title">Your Next Favorite Cafe<br />Experience Awaits</h2>
+          <p class="final-cta-subtitle">Join us at Cafe 55 Varanasi — where every visit becomes a memory.</p>
+          <div class="final-cta-buttons">
+            <a href="#reservation" class="btn btn-primary btn-large">Reserve Table</a>
+            <a href="https://wa.me/919876543210?text=Hi%20Cafe%2055,%20I%27d%20like%20to%20book%20a%20table" target="_blank" rel="noopener" class="btn btn-whatsapp btn-large">WhatsApp Booking</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer" aria-label="Footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col footer-brand">
+            <a href="#hero" class="nav-logo">
+              <span class="logo-text">Cafe<span class="logo-accent">55</span></span>
+              <span class="logo-sub">VARANASI</span>
+            </a>
+            <p class="footer-tagline">Where great coffee meets great conversations. Premium cafe experience in the heart of Varanasi.</p>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#reservation">Reserve</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-heading">Contact</h4>
+            <ul class="footer-links">
+              <li>📍 55, Ghaziabad Road, Sigra, Varanasi</li>
+              <li>📞 +91 98765 43210</li>
+              <li>✉️ hello@cafe55varanasi.com</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-heading">Opening Hours</h4>
+            <ul class="footer-links">
+              <li>Mon — Fri: 9AM — 11PM</li>
+              <li>Sat — Sun: 9AM — 11PM</li>
+            </ul>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+              <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+              <a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-link">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Cafe 55 Varanasi. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== Floating WhatsApp ===== -->
+    <a href="https://wa.me/919876543210?text=Hi%20Cafe%2055,%20I%27d%20like%20to%20book%20a%20table" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
